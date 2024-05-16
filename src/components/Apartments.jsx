@@ -4,7 +4,7 @@ import ApartmentImageCard from './ApartmentImageCard'
 function Apartments() {
   return (
     <div className="w-[100%] flex-col justify-start items-center gap-20 flex">
-        <div><span className="text-zinc-900 text-5xl font-semibold font-['Figtree'] leading-10">Explore </span><span className="text-[#7FDBCA] text-5xl font-semibold font-['Figtree'] leading-10">Apartments</span></div>
+        <div className='ml-10 md:m-0'><span className="text-zinc-900 text-5xl font-semibold font-['Figtree'] leading-10">Explore </span><span className="text-[#7FDBCA] text-5xl font-semibold font-['Figtree'] leading-10">Apartments</span></div>
         <div className="w-[100%] md:flex">
             <ApartmentImageCard imgUrl='https://s3-alpha-sig.figma.com/img/eb70/5303/9e120f9f2feb4937d10aa881474e1151?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=GdY6dYGsuVxFJzbDh5SsdVv-Q83-By30zqnNarxuGR9ZQd-qnLHqf2QnMhs3CTjhRAV61slqYPckwD9W~T-6kQ8efo3yY-1S6x5yLfUeJaqOvLSXnERdCHtt2EfInjMVwt7ooYpDputSsB8m-H2vxNSp4mCXHDR8DPCBmb4CNBYhgNtiIFu~AXvvnlNnseOMWxP52~o7nHIJy0m7ApaJGpknF0zTYketClmqDZ9-~Ku4HCugtlhBvVsfAkl6-hHqkrFI7pbJJUaRneDOAoGk0sbhkf5a10PzuFcepBV3bEzxqO30VQdF4c9B0h~SUSd3ROg5l2PP-fElU5nJRT2NfQ__' />
             <ApartmentImageCard imgUrl='https://s3-alpha-sig.figma.com/img/998d/054d/a2a41f062ccbc0bae7c5a4e53ed0a5a8?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=p~0h7a-R3zO40qg9GGz7q8H75Py7Phy8xoXvzJfFEVZ6GmOTh-XG3X8VpbZmIZNiBNmu3Q45Rv6-WNCFthHzPCkZxsyscJTbCXYaDE680XjCvusmrdV3KIMMMoDhOsGeog1gUaDLd~Km1V4CAcuDCp3Fte6Y-JrJ-q3k0kyFOFXHxa7hF871MRPhUG8cvoSgqUQGfpMR8j2-dTo0nK6MBsdmJ-xcfETVJo61gP5Su95YLD~~SVzelxKBoKxzxNa2KEbqPAc~oJeLa55lbus3gqagejH8wWQE9AAPtrmz9deClb~Ky68r5w3Qln4Nmu5P4hvHJJLNawL8JAz0adwpHw__'/>

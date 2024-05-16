@@ -47,17 +47,17 @@ function Footer() {
       { name: 'Settings' },
       { name: 'Contact' },
     ];
-  
+    
     return (
-      <div className="flex flex-col items-start gap-16 p-8 bg-[#7FDBCA]">
-        <div className="flex justify-start items-start gap-16 w-full">
-          <div className="flex flex-col justify-start items-start gap-8 w-1/4">
+      <div className="p-8 bg-[#7FDBCA]">
+        <div className="flex flex-wrap md:flex-nowrap justify-start items-start gap-16 w-full">
+          <div className="flex flex-col flex-grow justify-start items-start gap-8 basis-1/4">
             <div className="text-center text-white text-2xl font-bold font-['Oxygen']">Room8s</div>
             <div className="text-gray-200 text-base font-normal font-['Inter']">
               Design amazing digital experiences that create more happy in the world.
             </div>
           </div>
-          <div className="flex flex-grow justify-start items-start gap-8">
+          <div className="flex flex-grow flex-wrap justify-start items-start gap-8 basis-3/4">
             <FooterLinks title="Product" links={productLinks} />
             <FooterLinks title="Company" links={companyLinks} />
             <FooterLinks title="Resources" links={resourcesLinks} />
