@@ -8,7 +8,17 @@ export default {
     extend: {
       fontFamily: {
         Oxygen: ["Oxygen", "sans-serif"],
+        inter: ['Inter', 'sans-serif'],
+        nunito: ['Nunito', 'sans-serif'],
+        heebo: ['Heebo', 'sans-serif'],
         // Add more custom font families as needed
+      },
+      colors: {
+        customTeal: '#7fdbca',
+        customGray: '#98A2B3',
+        customgray800: '#212121',
+        customgray900: '#101828'
+
       },
     },
   },
