@@ -16,7 +16,7 @@ const ConfirmPassword = () => {
               Password
             </label>
             <input
-              type="password"
+              type="password" required
               className="w-full p-3 border border-gray-300 rounded"
             />
           </div>
@@ -25,7 +25,7 @@ const ConfirmPassword = () => {
               Confirm Password
             </label>
             <input
-              type="password"
+              type="password" required
               className="w-full p-3 border border-gray-300 rounded"
             />
           </div>
@@ -38,7 +38,7 @@ const ConfirmPassword = () => {
         </form>
         <p className="mt-4 text-sm font-normal text-customGray">
           Go back to{' '}
-          <a href="/signin" className="text-customTeal underline font-semibold">
+          <a href="#" className="text-customTeal underline font-semibold">
             Sign in
           </a>
         </p>
