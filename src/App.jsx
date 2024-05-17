@@ -1,24 +1,26 @@
-import Metrics from "./components/Metrics"
-import Hero from "./components/Hero"
-import Navbar from "./components/Navbar"
-import Benefits from "./components/Benefits"
-import Apartments from "./components/Apartments"
-import HeroSecondary from "./components/HeroSecondary"
-import Footer from "./components/Footer"
-import FooterNav from "./components/FooterNav"
+import {
+  Route,
+  createBrowserRouter,
+  createRoutesFromElements,
+  RouterProvider
+} from "react-router-dom"
+
+import HomePage from "./pages/HomePage";
+import MainLayout from "./layout/MainLayout";
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<MainLayout />} >
+      <Route index element={<HomePage />} />
+    </Route>
+  )
+);
 
 function App() {
 
   return (
     <>
-      <Navbar />
-      <Hero />
-      <Metrics />
-      <Benefits />
-      <Apartments />
-      <HeroSecondary />
-      <Footer />
-      <FooterNav />
+      <RouterProvider router={router} />
     </>
   )
 }
