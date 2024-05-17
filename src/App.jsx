@@ -7,11 +7,13 @@ import {
 
 import HomePage from "./pages/HomePage";
 import MainLayout from "./layout/MainLayout";
+import LoginPage from "./pages/LoginPage"
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<MainLayout />} >
       <Route index element={<HomePage />} />
+      <Route path="/login" element={<LoginPage />} />
     </Route>
   )
 );
