@@ -8,9 +8,10 @@ export default {
     extend: {
       fontFamily: {
         Oxygen: ["Oxygen", "sans-serif"],
+        Figtree: ["Figtree", "sans-serif"],
         // Add more custom font families as needed
       },
-    },
+    }
   },
   plugins: [],
 }
