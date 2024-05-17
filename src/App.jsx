@@ -7,11 +7,13 @@ import {
 
 import HomePage from "./pages/HomePage";
 import MainLayout from "./layout/MainLayout";
+import ConfirmPassword from "./pages/ConfirmPassword";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<MainLayout />} >
-      <Route index element={<HomePage />} />
+    <Route index element={<HomePage />} />
+    <Route path="/ConfirmPassword" element={<ConfirmPassword/>}/> 
     </Route>
   )
 );
