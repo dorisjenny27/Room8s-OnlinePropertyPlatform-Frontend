@@ -8,6 +8,7 @@ export default {
     extend: {
       fontFamily: {
         Oxygen: ["Oxygen", "sans-serif"],
+        Figtree: ["Figtree", "sans-serif"],
         inter: ['Inter', 'sans-serif'],
         nunito: ['Nunito', 'sans-serif'],
         heebo: ['Heebo', 'sans-serif'],

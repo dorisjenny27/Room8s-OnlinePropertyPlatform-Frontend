@@ -1,11 +1,26 @@
-import Navbar from "./components/Navbar"
+import {
+  Route,
+  createBrowserRouter,
+  createRoutesFromElements,
+  RouterProvider
+} from "react-router-dom"
+
+import HomePage from "./pages/HomePage";
+import MainLayout from "./layout/MainLayout";
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<MainLayout />} >
+      <Route index element={<HomePage />} />
+    </Route>
+  )
+);
 
 function App() {
 
   return (
     <>
-      <Navbar/>
-     
+      <RouterProvider router={router} />
     </>
   )
 }
