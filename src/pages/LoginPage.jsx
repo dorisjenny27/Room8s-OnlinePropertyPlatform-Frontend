@@ -2,7 +2,7 @@ import React from 'react';
 import '../index.css';  // Ensure Tailwind CSS is imported
 
 function LoginPage() {
-  return ( 
+  return (
     <>
       <div className="h-screen flex items-center justify-center bg-cover bg-[url('./assets/Images/bg-image.jpg')]">
         <div className="relative  w-[490px] h-[450px] bg-white rounded-[5px] px-[0px] py-[0px] shadow-md">
