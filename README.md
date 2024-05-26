@@ -21,18 +21,18 @@ significantly discounted price.
 ## Demography:
 Salaried and self-employed individuals ages 17-50, locals.
 
-##Geography: 
+## Geography:
 Lagos, Abuja.
 
 ## Competitors:
 Shareflats (Twitter), rentinlekki (Instagram)
 
-## Constraints
+## Constraints:
 1. Time
 2. Cost
 3. Engineering capability
 
-## User Personas
-The Administrator
-User
-Property owner
+## User Personas:
+~ The Administrator
+~ User
+~ Property owner
